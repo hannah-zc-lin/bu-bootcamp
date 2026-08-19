@@ -1,0 +1,7 @@
+# GIT NOTE
+ 
+PULL → EDIT → ADD → COMMIT → PUSH
+
+If you are using branches:
+
+CREATE BRANCH → EDIT → ADD → COMMIT → PUSH → MERGE INTO MAIN
