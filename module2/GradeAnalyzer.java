@@ -1,4 +1,4 @@
-package Module2;
+
 
 import java.io.*; 
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ public class GradeAnalyzer {
     static int invalidLines = 0;
     public static void main(String[] args) {
         // Step 1: read scores from file
-        String filename = "Module2/scores.txt";
-        String outputFile = "Module2/report.txt";
+        String filename = "scores.txt";
+        String outputFile = "report.txt";
         
         ArrayList<Integer> scores = readScores(filename);
         if (scores.isEmpty()) {
